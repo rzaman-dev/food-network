@@ -104,6 +104,24 @@ section{
     width: 100%;
 }
 
+/* submitt button start */
+
+#offer-text{
+    text-align: center;
+    color: dimgray;
+    font-size: 35px;
+}
+
+.input-form{
+    margin-left: 445px;
+    padding: 12px 72px;
+    border: 2px solid orange;
+}
+
+.mail-wrap{
+    margin: 40px 20px;
+}
+
 /* footer area start*/
 .footer-area{
     text-align: center;
