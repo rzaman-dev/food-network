@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* section{
+    margin: 20px 0;
+} */
+/* hero area start */
+
+.title-text{
+    font-size: 50px;
+    margin: 0;
+}
+
+#text-hilight{
+    color: orange;
+}
+.text-dim-color{
+    color: dimgray;
+    text-align: justify;
+}
+.hero-wrap{
+    display: flex;
+    height: 100vh;
+}
+
+.half-width{
+    margin: auto;
+    width: 38%;
+    margin-left: 5%;
+    padding: 5%;
+}
+
+.half-width img{
+    width: 75%;
+}
+
+.button-area{
+    margin-top: 35px;
+}
+
+.click-button{
+    text-decoration: none;
+     color: #ffff;
+     font-size: 15px;
+     padding: 15px 40px;
+     border-radius: 26px;
+     background-image: linear-gradient(orange, red);
+     
+}
+
+/* about area start */
+
+.about-area{
+    background-image: url(../img/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+
+}
+
+.about-wrap{
+    display: flex;
+    height: 100vh;
+}
+
+/* recipies area start */
+
+.recipies-text{
+    text-align: center;
+}
+
+.recipies-iteam{
+    display: flex;
+    /* margin-left: 25px ; */
+}
+.one-third-width{
+    width: 25%;
+    padding: 20px 13px;
+    margin-left: 5%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    box-shadow: 3px 2px 20px gray;
+}
+.one-third-width img{
+    width: 100%;
+}
+
+/* test area*/
+.footer-area{
+    text-align: center;
+    background-color: orangered;
+    background-size: cover;
+    padding: 40px 150px;
+}
