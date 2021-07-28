@@ -3,9 +3,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-/* section{
-    margin: 20px 0;
-} */
+section{
+    margin-bottom: 30px;
+}
 /* hero area start */
 
 .title-text{
@@ -13,7 +13,7 @@ body{
     margin: 0;
 }
 
-#text-hilight{
+.text-highlight{
     color: orange;
 }
 .text-dim-color{
@@ -46,7 +46,7 @@ body{
      font-size: 15px;
      padding: 15px 40px;
      border-radius: 26px;
-     background-image: linear-gradient(orange, red);
+     background-image: linear-gradient(90deg, orange, red);
      
 }
 
@@ -69,11 +69,12 @@ body{
 
 .recipies-text{
     text-align: center;
+    padding: 35px 350px;
 }
 
 .recipies-iteam{
     display: flex;
-    /* margin-left: 25px ; */
+    padding: 48px;
 }
 .one-third-width{
     width: 25%;
@@ -87,10 +88,10 @@ body{
     width: 100%;
 }
 
-/* test area*/
+/* footer area start*/
 .footer-area{
     text-align: center;
-    background-color: orangered;
+    background-color: black;
     background-size: cover;
     padding: 40px 150px;
 }
